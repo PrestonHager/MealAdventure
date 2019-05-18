@@ -1,0 +1,25 @@
+{
+  "name": "mealadventure",
+  "version": "1.0.0",
+  "description": "Recipe finder.",
+  "main": "app.js",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.17.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrestonHager/MealAdventure.git"
+  },
+  "author": "Preston Hager",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PrestonHager/MealAdventure/issues"
+  },
+  "homepage": "https://github.com/PrestonHager/MealAdventure#readme"
+}
