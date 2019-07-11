@@ -9,7 +9,13 @@ const PORT = process.env.PORT || 80;
 app.use('/static', express.static(path.join(__dirname, 'static')))
 
 app.get('/', (req, res) => {
-  res.render('index.jade');
+  res.render('index.jade')
+})
+app.get('/login', (req, res) => {
+  res.render('login.jade')
+})
+app.get('/signup', (req, res) => {
+  res.render('signup.jade')
 })
 
 // app.listen(port, () => console.log(`MealAdventure listening on port ${port}!`))
